@@ -1,0 +1,21 @@
+@media(max-width: 767px) {
+
+    .box, .box img {
+        width: 33%;
+    }
+
+
+    @media(max-width:600px) {
+
+        .box, .box img {
+            width: 50%;
+        }
+    }
+}
+
+@media(max-width: 430px) {
+
+    .box, .box img {
+        width: 100%;
+    }
+}
